@@ -1,0 +1,31 @@
+<ion-header>
+<ion-navbar hideBackButton = 'true'>
+    <ion-title middle >
+       Smart Glic
+    </ion-title>
+</ion-navbar>
+</ion-header>
+  <ion-content padding id="page6" style="background-color:#2B6CD1;" >
+    <form id="login-form3">
+      <ion-list id="login-list2">
+        <ion-item id="login-input3">
+          <ion-label>
+            Email
+          </ion-label>
+          <ion-input type="email" placeholder=""></ion-input>
+        </ion-item>
+        <ion-item id="login-input4">
+          <ion-label>
+            Senha
+          </ion-label>
+          <ion-input type="password" placeholder=""></ion-input>
+        </ion-item>
+      </ion-list>
+      <button id="login-button3" ion-button color="stable" block on-click="goToHome()">
+        Entrar
+      </button>
+    </form>
+    <button id="login-button4" ion-button clear color="energized" block on-click="goToCadastrarUsuario()">
+      Crie uma Conta
+    </button>
+  </ion-content>
